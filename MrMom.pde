@@ -10,17 +10,17 @@ void setup()
   
   //Estado 0
   game.addState(0);
-  imagen = loadImage("assets/help1.png");
+  imagen = loadImage("help1.png");
   game.addImagen(0, imagen);
-  imagen = loadImage("assets/buttons.png");
+  imagen = loadImage("buttons.png");
   Button botonAdelante0 = new Button(imagen.width/2, imagen.height/3, new PVector(0, 0), "siguiente0", imagen.get(0, imagen.height/3, imagen.width/2, imagen.height/3));
   game.addBoton(0, botonAdelante0);
   
   //Estado 1
   game.addState(1);
-  imagen = loadImage("assets/help2.png");
+  imagen = loadImage("help2.png");
   game.addImagen(1, imagen);
-  imagen = loadImage("assets/buttons.png");
+  imagen = loadImage("buttons.png");
   Button botonAdelante1 = new Button(imagen.width/2, imagen.height/3, new PVector(0, 0), "siguiente1", imagen.get(0, imagen.height/3, imagen.width/2, imagen.height/3));
   game.addBoton(1, botonAdelante1);
   Button botonAtras1 = new Button(imagen.width/2, imagen.height/3, new PVector(0, imagen.height/3), "atras1", imagen.get(imagen.width/2, imagen.height/3, imagen.width/2, imagen.height/3));
@@ -28,9 +28,9 @@ void setup()
   
   //Estado 2
   game.addState(2);
-  imagen = loadImage("assets/help3.png");
+  imagen = loadImage("help3.png");
   game.addImagen(2, imagen);
-  imagen = loadImage("assets/buttons.png");
+  imagen = loadImage("buttons.png");
   Button botonAtras2 = new Button(imagen.width/2, imagen.height/3, new PVector(0, 0), "atras2", imagen.get(imagen.width/2, imagen.height/3, imagen.width/2, imagen.height/3));
   game.addBoton(2, botonAtras2);
   
